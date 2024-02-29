@@ -4,6 +4,11 @@ const app = createApp({
     data() {
         return{
             title: "Persistent Todo List",
+            todoList: [
+                'Dormire',
+                'Mangiare',
+                'Pescare'
+            ],
         };
     },
 
