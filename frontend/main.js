@@ -3,11 +3,20 @@ const { createApp } = Vue;
 const app = createApp({
     data() {
         return{
-            title: "Persistent Todo List",
-            todoList: [
-                'Dormire',
-                'Mangiare',
-                'Pescare'
+            title: "Todo List JSON",
+            taskList: [
+                {
+                    text: 'Dormire',
+                    done: true,
+                },
+                {
+                    text: 'Mangiare',
+                    done: false,
+                },
+                {
+                    text: 'Pescare',
+                    done: false,
+                }
             ],
         };
     },
